@@ -80,9 +80,7 @@ public class GT4500 implements SpaceShip {
         // try to fire both of the torpedo stores
         if (secondaryTorpedoStore.fire(1) && primaryTorpedoStore.fire(1)) { 
           firingSuccess = true;
-        }
-
-        //branch-A changes
+        }//branch-A message
 
         break;
     }
