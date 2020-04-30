@@ -7,6 +7,10 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.projectKey>horvathdora_ivt-lab</sonar.projectKey>
+		<sonar.organization>horvathdora</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>8a88539f6c07a89c780fa8a7bb5fe1044ff5090b</sonar.login>
 	</properties>
 
 	<dependencies>
