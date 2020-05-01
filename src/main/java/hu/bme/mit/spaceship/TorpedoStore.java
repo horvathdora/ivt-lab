@@ -13,6 +13,7 @@ public class TorpedoStore {
   private double FAILURE_RATE = 0.0; //NOSONAR
 
   private int torpedoCount = 0;
+  //remélem így már jó
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
@@ -41,7 +42,7 @@ public class TorpedoStore {
     double r = this.generator.nextDouble();
 
     if (r >= FAILURE_RATE) {
-      // successful firing
+      // successful firing 
       this.torpedoCount = -numberOfTorpedos;
       success = true;
     } else {
